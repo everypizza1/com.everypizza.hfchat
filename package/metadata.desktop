@@ -1,16 +1,16 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=ChatGPT plasmoid for Plasma
-Keywords=ChatGPT
+Name=HuggingChat plasmoid for Plasma
+Keywords=HuggingChat
 Icon=search-symbolic
 X-Plasma-API=declarativeappletscript
 Type=Service
-X-Plasma-Provides=com.darkeye.chatGPT
+X-Plasma-Provides=com.everypizza.hfchat
 X-KDE-ServiceTypes=Plasma/Applet
 X-KDE-PluginInfo-Category=Windows and Tasks
-X-KDE-PluginInfo-Name=com.darkeye.chatGPT
+X-KDE-PluginInfo-Name=com.everypizza.hfchat
 X-KDE-PluginInfo-EnabledByDefault=true
 X-KDE-PluginInfo-Version=0.9
-X-KDE-PluginInfo-Website=https://github.com/dark-eye/com.darkeye.chatGPT
+X-KDE-PluginInfo-Website=https://github.com/everypizza1/com.everypizza.hfchat
 KDE-PluginInfo-License=BSD 3.0
 X-Plasma-MainScript=ui/main.qml
