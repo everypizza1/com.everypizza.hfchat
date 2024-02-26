@@ -19,7 +19,6 @@ Kirigami.FormLayout {
         text: i18n("Send On Enter")
     }
     QQC2.Label {
-		foQQC2.Label {
 		font.pixelSize: 12
 		text:i18n("When checked pressing Enter will send the query.");
 	}
