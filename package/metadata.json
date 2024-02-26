@@ -6,11 +6,11 @@
             }
         ],
         "Category": "Online Services",
-        "Description": "ChatGPT plasmoid for Plasma.",
+        "Description": "HuggingChat plasmoid for Plasma.",
         "Icon": "search-symbolic",
-        "Id": "com.darkeye.chatGPT",
+        "Id": "com.everypizza.hfchat",
         "License": "BSD 3.0",
-        "Name": "ChatGPT Plasmoid",
+        "Name": "HuggingChat Plasmoid",
         "ServiceTypes": [
             "Plasma/Applet"
         ],

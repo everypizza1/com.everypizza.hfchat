@@ -136,7 +136,7 @@ Item {
 								PlasmaComponents.ToolTip.text: text
 								PlasmaComponents.ToolTip.delay: Kirigami.Units.toolTipDelay
 								PlasmaComponents.ToolTip.visible: hovered
-								onClicked: gptWebView.url = "https://chat.openai.com/chat";
+								onClicked: gptWebView.url = "https://huggingface.co/chat";
 							}
 
 							Kirigami.Heading {
@@ -250,7 +250,7 @@ Item {
 
 				id: gptWebView
 				focus: true
-				url: "https://chat.openai.com/chat"
+				url: "https://huggingface.co/chat"
 
 				profile: WebEngineProfile {
 					id: chatGptProfile
