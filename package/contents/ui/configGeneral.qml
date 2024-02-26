@@ -22,8 +22,6 @@ Kirigami.FormLayout {
 		foQQC2.Label {
 		font.pixelSize: 12
 		text:i18n("When checked pressing Enter will send the query.");
-	}nt.pixelSize: 12
-		text:i18n("When checked pressing Enter will send the query.");
 	}
 	QQC2.Label {
 		font.pixelSize: 8
