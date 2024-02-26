@@ -128,7 +128,7 @@ Item {
 							spacing: Kirigami.Units.mediumSpacing
 
 							PlasmaComponents.ToolButton {
-								text: i18n("Back to ChatGPT")
+								text: i18n("Back to HuggingChat")
 								visible: !gptWebView.url.toString().match(/chat\.openai\.com\/(|chat|auth)/);
 								enabled: visible
 								icon.name: "draw-arrow-back"
@@ -144,7 +144,7 @@ Item {
 								Layout.alignment: Qt.AlignCenter
 								Layout.fillWidth: true
 								verticalAlignment: Text.AlignVCenter
-								text: i18n("ChatGPT")
+								text: i18n("HuggingChat")
 								color: theme.textColor
 							}
 						}

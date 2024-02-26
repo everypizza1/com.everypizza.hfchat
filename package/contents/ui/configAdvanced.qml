@@ -35,6 +35,12 @@ Kirigami.FormLayout {
         Kirigami.FormData.label: i18n("Show debug console")
     }
 
+        QQC2.Label {
+		font.pixelSize: 8
+		font.italic: true
+		text:i18n("This will probably have refrences to ChatGPT.");
+	}
+
 
     QQC2.Slider {
         Kirigami.FormData.label:i18n("Max realod is set to  : %1 second ",maxReloadTime.value );

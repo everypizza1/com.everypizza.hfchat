@@ -19,8 +19,11 @@ Kirigami.FormLayout {
         text: i18n("Send On Enter")
     }
     QQC2.Label {
+		foQQC2.Label {
 		font.pixelSize: 12
-		text:i18n("When checked pressing Enter will send the query to ChatGPT.");
+		text:i18n("When checked pressing Enter will send the query.");
+	}nt.pixelSize: 12
+		text:i18n("When checked pressing Enter will send the query.");
 	}
 	QQC2.Label {
 		font.pixelSize: 8
@@ -40,7 +43,7 @@ Kirigami.FormLayout {
     QQC2.Label {
 		font.pixelSize: 8
 		font.italic: true
-		text:i18n("This is enabled by default to allow for quick code/recipe/etc but can be disabled if you are worried about ChatCGPT  examining your system clipboard");
+		text:i18n("This is enabled by default to allow for quick code/recipe/etc but can be disabled if you are worried about the site examining your system clipboard");
 	}
 
 	QQC2.Button {
@@ -54,6 +57,11 @@ Kirigami.FormLayout {
 		font.pixelSize: 8
 		font.italic: true
 		text:i18n("Select the directory to download files to.");
+	}
+
+	QQC2.Label {
+		font.pixelSize: 12
+		text:i18n("This extention is based of of the ChatGPT Plasmoid by dark-eye.");
 	}
 
 	FileDialog {
