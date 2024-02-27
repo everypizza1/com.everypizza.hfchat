@@ -13,7 +13,7 @@ Item {
         height: width
 
         svg: PlasmaCore.Svg {
-            imagePath: Qt.resolvedUrl("assets/logo.svg");
+            imagePath: Qt.resolvedUrl("assets/logo.png");
         }
 
         MouseArea {
