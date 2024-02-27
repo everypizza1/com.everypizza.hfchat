@@ -17,7 +17,7 @@
         </entry>
           <entry name="icon" type="String">
             <label>The path of the icon used in the compact representation (e.g. on a small panel).</label>
-            <default>assets/logo.svg</default>
+            <default>assets/hugging-face-emoji-clipart-md-3874147312.png</default>
         </entry>
         <entry name="debugConsole" type="Bool">
             <default>false</default>
